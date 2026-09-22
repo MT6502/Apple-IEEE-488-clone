@@ -1,6 +1,6 @@
 # Apple-IEEE-488-clone
-the schematich ei based on the schematic, original documenter 
-in the IEEE-488 interface manual from Apple.
+the schematic is based on the original documented
+in the IEEE-488 interface manual from Apple with some smaller changes, mainly for easier routing the board.
 The manual can be found at several places in the internet. 
 Actually the following links will work:
 https://www.applefritter.com/files/2021/08/15/Apple%20%5D%5B%20___%20IEEE-488%20Interface%20Users%20Guide.pdf
