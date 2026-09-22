@@ -1,0 +1,111 @@
+(footprint "C_disk_2.54mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.048 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4128f4e9-7147-4900-bb8a-f100c335ef28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "100n"
+		(at 3.6576 1.5748 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6b394da0-255a-42e5-9516-1b172306b5ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "246def30-fefe-4dcd-b433-d6d503f30e57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Unpolarized capacitor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e03a7be-207e-4af6-a0a9-75a01fd01690")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "C_*")
+	(sheetname "/")
+	(sheetfile "Apple_II_IEEE-488.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0.5334 -0.7874)
+		(end 2.032 -0.7874)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f4121b1-1e4f-4045-bc98-f0038c8a5a18")
+	)
+	(fp_line
+		(start 0.5588 0.762)
+		(end 2.0574 0.762)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea9ba9c7-6b6a-44e2-a666-49e99fb8d7cf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.826 3.0988 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2f791a00-9942-4f68-82db-51eaafae6fe6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "43996a5f-a38a-4433-b83d-792c79cd7a71")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "12ab94eb-e4ac-4bc7-812b-c89823e127c0")
+	)
+	(embedded_fonts no)
+)
